@@ -1,0 +1,61 @@
+.bodySingIn {
+  background-color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.signin {
+  max-width: 35rem;
+  border: 1px solid #d2d2d2;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem 2.6rem;
+  border-radius: 0.8rem;
+  text-align: left;
+
+  &__title {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+
+  &__label {
+    margin-top: 2rem;
+  }
+
+  input {
+    width: 100%;
+    height: 3.2rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.3rem;
+    border: 1px solid #a0a0a0;
+    font-size: 1.2rem;
+
+    &:focus {
+      outline: 0.3rem solid #c2f2ff;
+    }
+  }
+
+  button {
+    width: 100%;
+    height: 3.2rem;
+    margin: 1.5rem 0;
+    background: #ffd814;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+  }
+
+  &__condition {
+    font-size: 1.2rem;
+
+    span {
+      color: #0066c0;
+    }
+  }
+
+  &__help {
+  }
+}

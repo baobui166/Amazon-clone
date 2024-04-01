@@ -1,0 +1,149 @@
+.cart {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+
+  &__left {
+    background: white;
+    padding: 2rem;
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+    }
+
+    hr {
+      border: none;
+      height: 0.1rem;
+      background: #dadada;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__right {
+    background: white;
+    padding: 2rem;
+    max-height: 22rem;
+    max-width: 28rem;
+
+    button {
+      width: 100%;
+      height: 3rem;
+      margin: 1.5rem 0;
+      background: #ffd814;
+      border: none;
+      border-radius: 0.8rem;
+      cursor: pointer;
+      font-size: 1.4rem;
+
+      &:hover {
+        background: #ebc712;
+      }
+    }
+  }
+
+  &__products {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    padding: 2.4rem 0 1.2rem 1.2rem;
+  }
+
+  &__titleprice {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.8rem;
+  }
+
+  &__bestseller {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+    span {
+      font-size: 1.3rem;
+      background: #c45500;
+      color: #fff;
+      padding: 0.3rem 0.8rem;
+    }
+  }
+
+  &__stock {
+    font-size: 1.3rem;
+    color: #007600;
+    margin: 0.4rem 0;
+  }
+
+  &__delivery {
+    font-size: 1.5rem;
+  }
+
+  &__return {
+    font-size: 1.5rem;
+    color: #007185;
+    font-weight: 400;
+  }
+
+  &__giftoption {
+    color: #494949;
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+
+    span {
+      color: #007185;
+    }
+  }
+
+  &__specs {
+    max-width: 15rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 0.3rem;
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+  }
+
+  &__action {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+    color: #007185;
+
+    hr {
+      height: 2rem;
+      width: 0.1rem;
+      background: #cfcfcf;
+    }
+
+    select {
+      padding: 0.5rem;
+      border-radius: 0.6rem;
+      background: #f3f3f3;
+    }
+  }
+
+  &_listTotal {
+    text-align: right;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  &__freeDelivery {
+    display: flex;
+    font-size: 1.3rem;
+  }
+
+  &__subtotal {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-weight: 500;
+  }
+
+  &__rightGift {
+    margin: 0.7rem 0;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

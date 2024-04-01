@@ -1,0 +1,42 @@
+.header__slider {
+  position: relative;
+  ul {
+    display: flex;
+    overflow-y: hidden;
+  }
+}
+
+.header__img {
+  max-width: 100%;
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.header__prev {
+  position: absolute;
+  left: 1%;
+  top: 20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background: #ffffff4f;
+  color: #0000007b;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.header__next {
+  position: absolute;
+  right: 1%;
+  top: 20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background: #ffffff4f;
+  color: #0000007b;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.header__box {
+  margin-top: -20vh;
+}
